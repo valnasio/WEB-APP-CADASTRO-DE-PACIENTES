@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg, rgb(235, 137, 52) 0%, rgba(253, 187, 45, 1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+body>h1 {
+    text-align: center;
+    color: #c5640a;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 40vw;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ff7f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff9900;
+}
+
+/* Estilo para o header da seção de Informações Pessoais */
+h2:nth-child(1) {
+    color: #0099cc;
+    border-bottom: 1px solid #0099cc;
+    padding-bottom: 5px;
+}
+
+/* Estilo para o header da seção de Endereço */
+h2:nth-child(3) {
+    color: #0099cc;
+    border-bottom: 1px solid #0099cc;
+    padding-bottom: 5px;
+}
+
+/* Estilo para o header da seção de Documentos Médicos */
+h2:nth-child(5) {
+    color: #0099cc;
+    border-bottom: 1px solid #0099cc;
+    padding-bottom: 5px;
+}
+
+/* Estilo para o header da seção de Contato de Emergência */
+h2:nth-child(7) {
+    color: #0099cc;
+    border-bottom: 1px solid #0099cc;
+    padding-bottom: 5px;
+}

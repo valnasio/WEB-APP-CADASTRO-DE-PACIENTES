@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo-cadastro.css">
+    <title>Cadastro de Paciente</title>
+</head>
+
+<body>
+    <h1>Cadastro de Paciente</h1>
+    <form action="processar_cadastro.php" method="post" enctype="multipart/form-data">
+        <!-- Informações Pessoais -->
+        <h2>Informações Pessoais</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <label for="rg">RG:</label>
+        <input type="text" name="rg" required>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" required>
+
+        <!-- Endereço -->
+        <h2>Endereço</h2>
+        <label for="rua">Rua:</label>
+        <input type="text" name="rua">
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" name="bairro">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade">
+
+        <!-- Documentos Médicos -->
+        <h2>Documentos Médicos</h2>
+        <label for="raio_x">Raio X (PDF ou imagem):</label>
+        <input type="file" name="raio_x" accept=".pdf, .jpg, .jpeg, .png">
+
+        <label for="laudo_medico">Laudo Médico (PDF):</label>
+        <input type="file" name="laudo_medico" accept=".pdf">
+
+        <!-- Contato de Emergência -->
+        <h2>Contato de Emergência</h2>
+        <label for="nome_contato_emergencia">Nome:</label>
+        <input type="text" name="nome_contato_emergencia">
+
+        <label for="telefone_contato_emergencia">Telefone:</label>
+        <input type="tel" name="telefone_contato_emergencia">
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
